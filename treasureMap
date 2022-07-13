@@ -1,4 +1,4 @@
-#this is the treasure map challenge
+#this is the treasure map challenge from udemy's course 100 Days of Code: The Complete Python Pro Bootcamp for 2022, from AppBrewery's teacher Angela Wu
 
 position = input('where is the treasure? ')
 
