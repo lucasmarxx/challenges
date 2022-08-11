@@ -1,0 +1,27 @@
+import random
+
+word_list = ['camelo', 'crocodilo', 'rinoceronte']
+chosen_word = random.choice(word_list)
+
+print(f'the word is {chosen_word}')
+display = []
+word_length = len(chosen_word)
+
+for position in chosen_word:
+    display += '_'
+
+end_of_game = False
+
+while not end_of_game:
+    guess = input('guess a letter: ').lower()
+
+    for position in range(word_length):
+        letter = chosen_word[position]
+        print(f'current position: {position}\n current letter: {letter} \nguessed letter: {guess}')
+        if letter == guess:
+            display[position] = letter
+
+    print(display)
+
+    if '_' not in display:
+        end_of_game = True
