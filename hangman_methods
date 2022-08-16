@@ -1,3 +1,5 @@
+#### This is the first one that I tried, filled with some mistakes and things that wouldn't let it work ####
+
 import random
 
 word_list = ['ardvark', 'baboon', 'camel']
